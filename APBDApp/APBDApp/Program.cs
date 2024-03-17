@@ -22,3 +22,11 @@ switch (n)
         break;
     }
 }
+
+static double CalculateAverage(int[] array)
+{
+    return 0.0;
+}
+
+
+    
