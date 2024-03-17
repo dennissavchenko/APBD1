@@ -49,3 +49,4 @@ static double FindMax(int[] array)
 Console.WriteLine(FindMax(new int[]{4, 3, 2, 7, 9, 4}));
 
 //main modification
+//feature-new changes
