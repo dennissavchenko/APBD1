@@ -25,7 +25,12 @@ switch (n)
 
 static double CalculateAverage(int[] array)
 {
-    return 0.0;
+    double sum = 0;
+    foreach (var i in array)
+    {
+        sum += i;
+    }
+    return sum / array.Length;
 }
 
 
