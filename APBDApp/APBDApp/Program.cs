@@ -37,7 +37,15 @@ Console.WriteLine(CalculateAverage(new int[]{4, 3, 2, 7, 9, 4}));
 
 static double FindMax(int[] array)
 {
-    return 0;
+    int max = array[0];
+    for (int i = 1; i < array.Length; i++)
+    {
+        if (array[i] > max) max = array[i];
+    }
+
+    return max;
 }
+
+Console.WriteLine(FindMax(new int[]{4, 3, 2, 7, 9, 4}));
 
     
